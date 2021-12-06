@@ -1,3 +1,4 @@
+/* color de fondo */
 body{
     background-color: #4b4c4d;
 }
@@ -27,26 +28,23 @@ text-align: center;
     justify-content:center ;
     text-align: center;     
 }  
-.imgsecundarias{
-  display: flex;
-  align-items: center;
-  
-}
+
 /* es para alinear las imagenes */
 .noticiasDiv{
     background-color: #d5d4d4;
      display: flex;
      
 }
-
+/* es la parte de abajo de abajo lo puse por poner */
 .numeros{
   text-align: center;
 
 }
-.alinear{
+/* me centra el texto de videos recomendados */
+ .alinear{
   text-align: center;
 
-}
+} 
 
 /* Footer */
 .footer-basic {
