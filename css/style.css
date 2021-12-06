@@ -1,0 +1,111 @@
+body{
+    background-color: #4b4c4d;
+}
+/* Es el primer texto q aparece en cada pagina en el index es el quienes somos y en el resto de paginas es el titulo  */
+ .textoDiv{
+display: flex;
+flex-direction: column;
+justify-content:center ;
+text-align: center;
+} 
+
+/* Es para alinear los videos */
+.video{
+  
+    display: flex;
+    align-items: center;
+}
+/* es para achicar las imagenes */
+.achicar{
+    width: 400px; 
+    height: 250px;
+}
+/* es para alinear las imagenes */
+   .imagenesSecundarias{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    text-align: center;     
+}  
+.imgsecundarias{
+  display: flex;
+  align-items: center;
+  
+}
+/* es para alinear las imagenes */
+.noticiasDiv{
+    background-color: #d5d4d4;
+     display: flex;
+     
+}
+
+.numeros{
+  text-align: center;
+
+}
+.alinear{
+  text-align: center;
+
+}
+
+/* Footer */
+.footer-basic {
+    padding:40px 0;
+    background-color:#969696;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(148, 148, 148);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(95, 95, 95);
+    margin-bottom:0;
+  }
+  /* fin de footer */
